@@ -13,7 +13,7 @@ struct OnboardingView: View {
     
     var body: some View {
         GeometryReader { geo in
-            Header(title: "회원가입")
+            
             VStack {
                 TabView {
                     ForEach(0..<2) { index in

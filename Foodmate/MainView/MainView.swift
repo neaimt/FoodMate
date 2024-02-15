@@ -90,6 +90,7 @@ struct MainView: View {
             .padding(.top, 20)
             Spacer()
         }
+        .navigationBarBackButtonHidden(true)
     }
     
     func didDismiss() {

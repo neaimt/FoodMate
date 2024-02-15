@@ -34,7 +34,7 @@ struct LoginView1: View {
     
     var body: some View {
         VStack {
-            Header(title: "회원가입")
+            Header(title: "로그인") 
             Spacer()
             Image("Logo_fire")
                 .resizable()
@@ -53,7 +53,7 @@ struct LoginView1: View {
                 .padding(.bottom, 40)
             
             RegularBtn(destinationView: {
-                EmptyView()}, title: "로그인", colorname: "custompink")
+                MainView()}, title: "로그인", colorname: "custompink")
             Spacer()
                 .frame(height: screenHeight/3)
             

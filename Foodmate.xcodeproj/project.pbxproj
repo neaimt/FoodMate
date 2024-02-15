@@ -79,7 +79,7 @@
 		0F8C39442B4C02DF0039AA0B /* FoodmateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodmateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8C39482B4C02DF0039AA0B /* FoodmateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodmateUITests.swift; sourceTree = "<group>"; };
 		0F8C394A2B4C02DF0039AA0B /* FoodmateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodmateUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		0F8C395B2B4C07280039AA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0F8C395B2B4C07280039AA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F8C395D2B4C08670039AA0B /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
 		0F8C395E2B4C08670039AA0B /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
 		0F8C39612B4C08680039AA0B /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
@@ -171,15 +171,14 @@
 		0F8C392C2B4C02DE0039AA0B /* Foodmate */ = {
 			isa = PBXGroup;
 			children = (
-				0FA0F3922B74F53B000D1ACE /* MainView */,
-				0FE7BC862B6C72F700091351 /* extension */,
-				0FE7BC812B6C70ED00091351 /* Model */,
 				0F8C395B2B4C07280039AA0B /* Info.plist */,
-				0F3595452B4D588B0059E1C1 /* Component */,
-				0F3595502B4E988C0059E1C1 /* SignupView */,
-				0F35953E2B4D53390059E1C1 /* LoginView */,
 				0F8C392D2B4C02DE0039AA0B /* FoodmateApp.swift */,
 				0F8C392F2B4C02DE0039AA0B /* ContentView.swift */,
+				0FE7BC812B6C70ED00091351 /* Model */,
+				0F35953E2B4D53390059E1C1 /* LoginView */,
+				0F3595502B4E988C0059E1C1 /* SignupView */,
+				0FA0F3922B74F53B000D1ACE /* MainView */,
+				0F3595452B4D588B0059E1C1 /* Component */,
 				0F8C39332B4C02DF0039AA0B /* Preview Content */,
 			);
 			path = Foodmate;
@@ -263,13 +262,6 @@
 				0FE7BC822B6C710600091351 /* User.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		0FE7BC862B6C72F700091351 /* extension */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
