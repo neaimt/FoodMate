@@ -11,11 +11,6 @@ struct MainView: View {
     @State private var isShowingSheet = false
     @State var RowString: Set<String> = []
     
-    let columns = [
-        GridItem(.fixed(90), spacing: 10),
-        GridItem(.fixed(90), spacing: 10)
-    ]
-    
     var body: some View {
         VStack {
             MainHeader()
@@ -31,7 +26,8 @@ struct MainView: View {
                     .fill(.white.shadow(.drop(color: Color(hue: 0.035, saturation: 0.0, brightness: 0.0, opacity: 1), radius: 1, x:0, y:0)))
                     .frame(width: 250, height: 250)
                 
-                LazyVGrid(columns: columns, content: {
+                LazyVGrid(columns: [GridItem(.fixed(90), spacing: 10),
+                                    GridItem(.fixed(90), spacing: 10)], content: {
                     ForEach(RowString.sorted(), id: \.self) { index in
                         ZStack {
                             RoundedRectangle(cornerRadius: 20)
@@ -64,9 +60,13 @@ struct MainView: View {
                     }
                 })
                 .sheet(isPresented: $isShowingSheet,
-                               onDismiss: didDismiss) {
+                       onDismiss: didDismiss) {
+                    
                     ListView(isShowingSheet: $isShowingSheet, RowString: $RowString)
-                        }
+                        .presentationDetents([.large,.fraction(0.65)])
+                        .presentationDragIndicator(.hidden)
+                        .padding(.vertical, 50)
+                }
                 
                 Spacer()
                     .frame(width: 25)
@@ -98,7 +98,7 @@ struct MainView: View {
 }
 
 
-//MARK : 재료 선택 뷰 ( 재료 모델 따로 만들기! )
+// MARK: 임시 ! 재료 모델 따로 만들기!
 class ingredient: Identifiable {
     let name: String
     var id = UUID()
@@ -129,9 +129,16 @@ private var listrow = [
     ingredient(name: "딸기", isChecked: false),
     ingredient(name: "현미", isChecked: false),
     ingredient(name: "고등어", isChecked: false),
-    ingredient(name: "삼치", isChecked: false)
+    ingredient(name: "삼치", isChecked: false),
+    ingredient(name: "당근", isChecked: false),
+    ingredient(name: "사과", isChecked: false),
+    ingredient(name: "갈비", isChecked: false),
+    ingredient(name: "삼겹살", isChecked: false),
+    ingredient(name: "오징어", isChecked: false),
+    ingredient(name: "만두", isChecked: false)
 ]
 
+// MARK: sheet 페이지 - 재료 선택하는 뷰
 struct ListView: View {
     @Binding var isShowingSheet: Bool
     @Binding var RowString: Set<String>
@@ -139,40 +146,56 @@ struct ListView: View {
     
     var body: some View {
         VStack {
-            List(listrow) { ingredient in
-                Button(action: {
-                    if ingredient.isChecked {
-                        ingredient.isChecked.toggle()
-                        RowString.remove(ingredient.name)
-                    }
-                    
-                    else if RowString.count < 10 {
-                        ingredient.isChecked.toggle()
-                        if ingredient.isChecked {
-                            RowString.insert(ingredient.name)
+            // 박스 안에 선택된 재료들이 보임
+            ScrollView {
+                LazyVGrid(columns: [GridItem(.fixed(150), alignment: .center), GridItem(.fixed(150), alignment: .center)], content: {
+                    ForEach(listrow) { ingredient in
+                        Button(action: {
+                            if ingredient.isChecked {
+                                ingredient.isChecked.toggle()
+                                RowString.remove(ingredient.name)
+                            }
+                            
+                            else if RowString.count < 10 {
+                                ingredient.isChecked.toggle()
+                                if ingredient.isChecked {
+                                    RowString.insert(ingredient.name)
+                                }
+                            }
+                            else {
+                                isMaximum = true
+                            }
+                            
+                        }, label: {
+                            // 재료 버튼 모양
+                            VStack {
+                                Divider()
+                                    .background(Color.customgray)
+                                    .frame(width: 130)
+                                
+                                ZStack {
+                                    ingredient.isChecked ?
+                                    Rectangle()
+                                        .fill(.gray.opacity(0.1)) :
+                                    Rectangle()
+                                        .fill(.white.opacity(0.1))
+                                    
+                                    Text(ingredient.name)
+                                        .font(.Pretendard(.bold, size:16))
+                                        .foregroundColor(Color.black)
+                                }
+                                .frame(width: 130, height: 30)
+                            }
+                        })
+                        .alert("최대 10개까지 선택 가능합니다.", isPresented: $isMaximum) {
+                            Button("확인", role: .cancel) {
+                                isMaximum = false
+                            }
                         }
                     }
-                    else {
-                        isMaximum = true
-                    }
-                    
-                }, label: {
-                    HStack {
-                        ingredient.isChecked ?
-                        Image(systemName: "checkmark.circle").foregroundColor(Color.custompink)
-                        : Image(systemName: "circle").foregroundColor(Color.custompink)
-                        
-                        Text(ingredient.name)
-                            .foregroundColor(Color.black)
-                    }
                 })
-                .alert("최대 10개까지 선택 가능합니다.", isPresented: $isMaximum) {
-                    Button("확인", role: .cancel) {
-                        isMaximum = false
-                    }
-                }
             }
-            .scrollContentBackground(.hidden)
+            .scrollIndicators(.automatic)
             
             Text("\(RowString.count.description)개 선택")
                 .font(.Pretendard(.bold, size: 20))
