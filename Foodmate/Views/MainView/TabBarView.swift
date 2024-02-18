@@ -12,15 +12,15 @@ struct TabBarView: View {
     
     var body: some View {
         CustomTabBarContainerView(selection: $tabSelection) {
-            Color.red
+            Text("검색")
                 .tabBarItem(tab: .search, selection: $tabSelection)
-            Color.red
+            FoodmateView()
                 .tabBarItem(tab: .mate, selection: $tabSelection)
             MainView()
                 .tabBarItem(tab: .home, selection: $tabSelection)
-            Color.red
+            Text("채팅")
                 .tabBarItem(tab: .message, selection: $tabSelection)
-            Color.red
+            Text("마이페이지")
                 .tabBarItem(tab: .profile, selection: $tabSelection)
         }
         .ignoresSafeArea()

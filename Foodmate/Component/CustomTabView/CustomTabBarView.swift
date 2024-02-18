@@ -49,6 +49,7 @@ extension CustomTabBarView {
                     .onTapGesture {
                         switchToTab(tab: tab)
                     }
+                
             }
         }
         .padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))

@@ -18,6 +18,7 @@
 		0F7F0ADC2B7E341A00F1F3C8 /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F0ADB2B7E341A00F1F3C8 /* CustomTabBarContainerView.swift */; };
 		0F7F0ADE2B7E357E00F1F3C8 /* TabBarItemPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F0ADD2B7E357E00F1F3C8 /* TabBarItemPreferenceKey.swift */; };
 		0F7F0AE02B7E36F000F1F3C8 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F0ADF2B7E36F000F1F3C8 /* TabBarView.swift */; };
+		0F7F0AE52B81D94400F1F3C8 /* FoodmateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F0AE42B81D94400F1F3C8 /* FoodmateView.swift */; };
 		0F8C392E2B4C02DE0039AA0B /* FoodmateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C392D2B4C02DE0039AA0B /* FoodmateApp.swift */; };
 		0F8C39302B4C02DE0039AA0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C392F2B4C02DE0039AA0B /* ContentView.swift */; };
 		0F8C39322B4C02DF0039AA0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F8C39312B4C02DF0039AA0B /* Assets.xcassets */; };
@@ -79,6 +80,7 @@
 		0F7F0ADB2B7E341A00F1F3C8 /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
 		0F7F0ADD2B7E357E00F1F3C8 /* TabBarItemPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemPreferenceKey.swift; sourceTree = "<group>"; };
 		0F7F0ADF2B7E36F000F1F3C8 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		0F7F0AE42B81D94400F1F3C8 /* FoodmateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodmateView.swift; sourceTree = "<group>"; };
 		0F8C392A2B4C02DE0039AA0B /* Foodmate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodmate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8C392D2B4C02DE0039AA0B /* FoodmateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodmateApp.swift; sourceTree = "<group>"; };
 		0F8C392F2B4C02DE0039AA0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -178,8 +180,25 @@
 				0F35953E2B4D53390059E1C1 /* LoginView */,
 				0F3595502B4E988C0059E1C1 /* SignupView */,
 				0FA0F3922B74F53B000D1ACE /* MainView */,
+				0F7F0AE22B81D8EA00F1F3C8 /* SearchView */,
+				0F7F0AE32B81D91800F1F3C8 /* FoodmateView */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		0F7F0AE22B81D8EA00F1F3C8 /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
+		0F7F0AE32B81D91800F1F3C8 /* FoodmateView */ = {
+			isa = PBXGroup;
+			children = (
+				0F7F0AE42B81D94400F1F3C8 /* FoodmateView.swift */,
+			);
+			path = FoodmateView;
 			sourceTree = "<group>";
 		};
 		0F8C39212B4C02DE0039AA0B = {
@@ -208,7 +227,6 @@
 				0F8C395B2B4C07280039AA0B /* Info.plist */,
 				0F3595452B4D588B0059E1C1 /* Component */,
 				0F7F0AE12B7EFDC500F1F3C8 /* Views */,
-				0F7F0ADF2B7E36F000F1F3C8 /* TabBarView.swift */,
 				0FE7BC812B6C70ED00091351 /* Model */,
 				0F8C39332B4C02DF0039AA0B /* Preview Content */,
 			);
@@ -282,6 +300,7 @@
 		0FA0F3922B74F53B000D1ACE /* MainView */ = {
 			isa = PBXGroup;
 			children = (
+				0F7F0ADF2B7E36F000F1F3C8 /* TabBarView.swift */,
 				0FA0F3932B74F550000D1ACE /* MainView.swift */,
 			);
 			path = MainView;
@@ -447,6 +466,7 @@
 				0F7F0ADA2B7E253100F1F3C8 /* CustomTabBarView.swift in Sources */,
 				0F8C398C2B4C0C300039AA0B /* FontManager.swift in Sources */,
 				0F7F0AE02B7E36F000F1F3C8 /* TabBarView.swift in Sources */,
+				0F7F0AE52B81D94400F1F3C8 /* FoodmateView.swift in Sources */,
 				0F3595402B4D534F0059E1C1 /* LoginView.swift in Sources */,
 				0F3595542B4E9AAE0059E1C1 /* ProgressBar.swift in Sources */,
 				0FA0F3912B74EE9E000D1ACE /* MainHeader.swift in Sources */,
