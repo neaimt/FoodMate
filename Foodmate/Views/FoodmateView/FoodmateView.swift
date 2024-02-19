@@ -37,7 +37,7 @@ struct FoodmateView: View {
                                 .foregroundStyle(Color.white)
                                 .padding(.leading, 20)
                             Button {
-                                print("주소화면")
+                                isShowing.toggle()
                             } label: {
                                 Image(systemName: "chevron.down")
                                     .resizable()
@@ -45,6 +45,9 @@ struct FoodmateView: View {
                                     .foregroundStyle(Color.white)
                                     .frame(width: 15)
                             }
+                            .fullScreenCover(isPresented: $isShowing, content: {
+                                AddressSearchView(Address: $Address)
+                            })
                             Spacer()
                         }
                         // MARK: 메뉴 검색칸
@@ -54,6 +57,10 @@ struct FoodmateView: View {
                             TextField("메이트와 같이 먹고 싶은 음식을 입력해주세요", text: $InputMenu)
                                 .font(.Pretendard(.regular, size: 12))
                                 .multilineTextAlignment(.center)
+                                .disableAutocorrection(true)
+                                .onSubmit {
+                                    InputMenu = ""
+                                }
                             
                         }
                         .frame(height: 35)
