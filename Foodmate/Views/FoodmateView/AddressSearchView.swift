@@ -30,7 +30,9 @@ struct AddressSearchView: View {
                     
                     TextField("지번, 도로명, 건물명으로 검색", text: $InputAddress)
                         .onSubmit {
-                            Address = InputAddress
+                            if InputAddress != "" {
+                                Address = InputAddress
+                            }
                             InputAddress = ""
                         }
                         .disableAutocorrection(true)

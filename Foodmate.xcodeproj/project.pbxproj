@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F3232E82B8365FF00386E2B /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3232E72B8365FF00386E2B /* FeedView.swift */; };
+		0F3232EA2B84422900386E2B /* ClearBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3232E92B84422900386E2B /* ClearBackground.swift */; };
+		0F3232ED2B84492500386E2B /* CreateFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3232EC2B84492500386E2B /* CreateFeedView.swift */; };
+		0F3232F22B84561E00386E2B /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3232F12B84561E00386E2B /* Feed.swift */; };
 		0F3595402B4D534F0059E1C1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F35953F2B4D534F0059E1C1 /* LoginView.swift */; };
 		0F3595472B4D58A20059E1C1 /* RegularBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3595462B4D58A20059E1C1 /* RegularBtn.swift */; };
 		0F3595492B4DACCA0059E1C1 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3595482B4DACCA0059E1C1 /* Header.swift */; };
 		0F35954D2B4DB58B0059E1C1 /* LoginTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F35954C2B4DB58B0059E1C1 /* LoginTextFieldModifier.swift */; };
 		0F3595522B4E98AE0059E1C1 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3595512B4E98AE0059E1C1 /* SignupView.swift */; };
 		0F3595542B4E9AAE0059E1C1 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3595532B4E9AAE0059E1C1 /* ProgressBar.swift */; };
+		0F544E082B82D8E0002616EC /* AddressSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F544E072B82D8E0002616EC /* AddressSearchView.swift */; };
+		0F544E0A2B82E3BA002616EC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F544E092B82E3BA002616EC /* MapView.swift */; };
 		0F7F0AD82B7E21A500F1F3C8 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F0AD72B7E21A500F1F3C8 /* TabBarItem.swift */; };
 		0F7F0ADA2B7E253100F1F3C8 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F0AD92B7E253100F1F3C8 /* CustomTabBarView.swift */; };
 		0F7F0ADC2B7E341A00F1F3C8 /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F0ADB2B7E341A00F1F3C8 /* CustomTabBarContainerView.swift */; };
@@ -69,12 +75,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F3232E72B8365FF00386E2B /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		0F3232E92B84422900386E2B /* ClearBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearBackground.swift; sourceTree = "<group>"; };
+		0F3232EC2B84492500386E2B /* CreateFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFeedView.swift; sourceTree = "<group>"; };
+		0F3232F12B84561E00386E2B /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		0F35953F2B4D534F0059E1C1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		0F3595462B4D58A20059E1C1 /* RegularBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularBtn.swift; sourceTree = "<group>"; };
 		0F3595482B4DACCA0059E1C1 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		0F35954C2B4DB58B0059E1C1 /* LoginTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextFieldModifier.swift; sourceTree = "<group>"; };
 		0F3595512B4E98AE0059E1C1 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		0F3595532B4E9AAE0059E1C1 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		0F544E072B82D8E0002616EC /* AddressSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressSearchView.swift; sourceTree = "<group>"; };
+		0F544E092B82E3BA002616EC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0F7F0AD72B7E21A500F1F3C8 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		0F7F0AD92B7E253100F1F3C8 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		0F7F0ADB2B7E341A00F1F3C8 /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
@@ -130,6 +142,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F3232EB2B8448C900386E2B /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				0F3232E72B8365FF00386E2B /* FeedView.swift */,
+				0F3232EC2B84492500386E2B /* CreateFeedView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
 		0F35953E2B4D53390059E1C1 /* LoginView */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +169,7 @@
 				0FE7BC892B6C734600091351 /* ComponentManager.swift */,
 				0FA0F3902B74EE9E000D1ACE /* MainHeader.swift */,
 				0F7F0AD62B7E218300F1F3C8 /* CustomTabView */,
+				0F3232E92B84422900386E2B /* ClearBackground.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -196,7 +218,10 @@
 		0F7F0AE32B81D91800F1F3C8 /* FoodmateView */ = {
 			isa = PBXGroup;
 			children = (
+				0F3232EB2B8448C900386E2B /* Feed */,
 				0F7F0AE42B81D94400F1F3C8 /* FoodmateView.swift */,
+				0F544E072B82D8E0002616EC /* AddressSearchView.swift */,
+				0F544E092B82E3BA002616EC /* MapView.swift */,
 			);
 			path = FoodmateView;
 			sourceTree = "<group>";
@@ -310,6 +335,7 @@
 			isa = PBXGroup;
 			children = (
 				0FE7BC822B6C710600091351 /* User.swift */,
+				0F3232F12B84561E00386E2B /* Feed.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -399,6 +425,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ko,
 				Base,
 			);
 			mainGroup = 0F8C39212B4C02DE0039AA0B;
@@ -460,17 +487,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F35954D2B4DB58B0059E1C1 /* LoginTextFieldModifier.swift in Sources */,
+				0F3232F22B84561E00386E2B /* Feed.swift in Sources */,
 				0FA0F3942B74F550000D1ACE /* MainView.swift in Sources */,
 				0F8C39302B4C02DE0039AA0B /* ContentView.swift in Sources */,
+				0F544E0A2B82E3BA002616EC /* MapView.swift in Sources */,
+				0F3232ED2B84492500386E2B /* CreateFeedView.swift in Sources */,
 				0F7F0ADE2B7E357E00F1F3C8 /* TabBarItemPreferenceKey.swift in Sources */,
 				0F7F0ADA2B7E253100F1F3C8 /* CustomTabBarView.swift in Sources */,
 				0F8C398C2B4C0C300039AA0B /* FontManager.swift in Sources */,
+				0F544E082B82D8E0002616EC /* AddressSearchView.swift in Sources */,
 				0F7F0AE02B7E36F000F1F3C8 /* TabBarView.swift in Sources */,
 				0F7F0AE52B81D94400F1F3C8 /* FoodmateView.swift in Sources */,
 				0F3595402B4D534F0059E1C1 /* LoginView.swift in Sources */,
 				0F3595542B4E9AAE0059E1C1 /* ProgressBar.swift in Sources */,
 				0FA0F3912B74EE9E000D1ACE /* MainHeader.swift in Sources */,
 				0F3595522B4E98AE0059E1C1 /* SignupView.swift in Sources */,
+				0F3232E82B8365FF00386E2B /* FeedView.swift in Sources */,
 				0F8C392E2B4C02DE0039AA0B /* FoodmateApp.swift in Sources */,
 				0F3595492B4DACCA0059E1C1 /* Header.swift in Sources */,
 				0FE7BC832B6C710600091351 /* User.swift in Sources */,
@@ -479,6 +511,7 @@
 				0F7F0AD82B7E21A500F1F3C8 /* TabBarItem.swift in Sources */,
 				0FE7BC852B6C72CF00091351 /* OnboardingView.swift in Sources */,
 				0FE7BC8A2B6C734600091351 /* ComponentManager.swift in Sources */,
+				0F3232EA2B84422900386E2B /* ClearBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,10 +681,13 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Foodmate/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -659,9 +695,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = neaimt.Foodmate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -677,10 +717,13 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Foodmate/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -688,9 +731,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = neaimt.Foodmate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
