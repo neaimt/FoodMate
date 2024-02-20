@@ -17,6 +17,7 @@ struct LoginTextFieldModifier: ViewModifier {
             .font(.Pretendard(.medium, size: size))
             .padding(.leading, 20)
             .textInputAutocapitalization(.never)
+            .autocorrectionDisabled(true)
             .frame(width: width, height: height)
             .background {
                 RoundedRectangle(cornerRadius: 10)

@@ -42,3 +42,20 @@ func FreeBtn<V> (@State destinationView: @escaping (() -> V), title: String, col
     .navigationBarBackButtonHidden(true)
 }
 
+func feedBtn<V> (@State destinationView: @escaping (() -> V), title: String, colorname: String, width: CGFloat, height: CGFloat, fontsize: CGFloat, fontcolor: Color )-> some View where V : View {
+    NavigationLink(
+        destination: destinationView,
+        label: {
+            ZStack {
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(Color(colorname))
+                    .frame(width: width, height: height)
+                
+                Text(title)
+                    .font(.Pretendard(.medium, size: fontsize))
+                    .foregroundStyle(Color(fontcolor))
+            }
+        })
+    .navigationBarBackButtonHidden(true)
+}
+
