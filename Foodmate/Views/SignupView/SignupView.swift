@@ -21,11 +21,27 @@ struct SignupView: View {
                     .progressViewStyle(PinkProgressView(value: "50%"))
                     .padding(.bottom, 30)
                 
-                
-                TextField("아이디", text: $IdInput)
-                    .keyboardType(.default)
-                    .loginTextFieldModifier(width: 300, height: 40, size: 14)
-                    .padding(.bottom, 10)
+                ZStack(alignment: .trailing) {
+                    TextField("아이디", text: $IdInput)
+                        .keyboardType(.default)
+                        .loginTextFieldModifier(width: 300, height: 40, size: 14)
+                        
+                    Button(action: {
+                        // 중복 확인하는 액션 넣어줘야 함
+                    }, label: {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 10)
+                                .fill(Color.custommiddlegray)
+                                .frame(width: 60, height: 30)
+                                
+                            Text("중복 확인")
+                                .font(.Pretendard(.bold, size: 10))
+                                .foregroundStyle(Color.white)
+                        }
+                    })
+                    .padding(.trailing, 5)
+                }
+                .padding(.bottom, 10)
                 
                 SecureField("패스워드", text: $PasswordInput)
                     .keyboardType(/*@START_MENU_TOKEN@*/.default/*@END_MENU_TOKEN@*/)
