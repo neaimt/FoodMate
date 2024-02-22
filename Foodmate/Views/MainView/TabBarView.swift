@@ -13,7 +13,7 @@ struct TabBarView: View {
     var body: some View {
         NavigationStack {
             CustomTabBarContainerView(selection: $tabSelection) {
-                Text("검색")
+                RecipeSearchView()
                     .tabBarItem(tab: .search, selection: $tabSelection)
                 FoodmateView()
                     .tabBarItem(tab: .mate, selection: $tabSelection)

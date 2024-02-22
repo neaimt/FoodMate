@@ -198,18 +198,7 @@ struct FeedListView: View {
                 
                 Spacer()
                 
-                Image("FeedImage")
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: 60, height: 60)
-                    .clipShape(
-                        .rect(
-                            topLeadingRadius: 10,
-                            bottomLeadingRadius: 10,
-                            bottomTrailingRadius: 10,
-                            topTrailingRadius: 10)
-                    )
-                    .shadow(radius: 2)
+                ImageView(width: 60, height: 60)
             }
             .padding(.horizontal, 30)
         }

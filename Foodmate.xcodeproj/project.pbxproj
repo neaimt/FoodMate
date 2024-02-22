@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F289DF02B86DA2C00A483DB /* RecipeSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F289DEF2B86DA2C00A483DB /* RecipeSearchView.swift */; };
+		0F289DF22B86DD8E00A483DB /* RecipeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F289DF12B86DD8E00A483DB /* RecipeImage.swift */; };
 		0F3232E82B8365FF00386E2B /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3232E72B8365FF00386E2B /* FeedView.swift */; };
 		0F3232EA2B84422900386E2B /* ClearBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3232E92B84422900386E2B /* ClearBackground.swift */; };
 		0F3232ED2B84492500386E2B /* CreateFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3232EC2B84492500386E2B /* CreateFeedView.swift */; };
@@ -75,6 +77,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F289DEF2B86DA2C00A483DB /* RecipeSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSearchView.swift; sourceTree = "<group>"; };
+		0F289DF12B86DD8E00A483DB /* RecipeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeImage.swift; sourceTree = "<group>"; };
 		0F3232E72B8365FF00386E2B /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		0F3232E92B84422900386E2B /* ClearBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearBackground.swift; sourceTree = "<group>"; };
 		0F3232EC2B84492500386E2B /* CreateFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFeedView.swift; sourceTree = "<group>"; };
@@ -170,6 +174,7 @@
 				0FA0F3902B74EE9E000D1ACE /* MainHeader.swift */,
 				0F7F0AD62B7E218300F1F3C8 /* CustomTabView */,
 				0F3232E92B84422900386E2B /* ClearBackground.swift */,
+				0F289DF12B86DD8E00A483DB /* RecipeImage.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 		0F7F0AE22B81D8EA00F1F3C8 /* SearchView */ = {
 			isa = PBXGroup;
 			children = (
+				0F289DEF2B86DA2C00A483DB /* RecipeSearchView.swift */,
 			);
 			path = SearchView;
 			sourceTree = "<group>";
@@ -494,6 +500,7 @@
 				0F3232ED2B84492500386E2B /* CreateFeedView.swift in Sources */,
 				0F7F0ADE2B7E357E00F1F3C8 /* TabBarItemPreferenceKey.swift in Sources */,
 				0F7F0ADA2B7E253100F1F3C8 /* CustomTabBarView.swift in Sources */,
+				0F289DF02B86DA2C00A483DB /* RecipeSearchView.swift in Sources */,
 				0F8C398C2B4C0C300039AA0B /* FontManager.swift in Sources */,
 				0F544E082B82D8E0002616EC /* AddressSearchView.swift in Sources */,
 				0F7F0AE02B7E36F000F1F3C8 /* TabBarView.swift in Sources */,
@@ -504,6 +511,7 @@
 				0F3595522B4E98AE0059E1C1 /* SignupView.swift in Sources */,
 				0F3232E82B8365FF00386E2B /* FeedView.swift in Sources */,
 				0F8C392E2B4C02DE0039AA0B /* FoodmateApp.swift in Sources */,
+				0F289DF22B86DD8E00A483DB /* RecipeImage.swift in Sources */,
 				0F3595492B4DACCA0059E1C1 /* Header.swift in Sources */,
 				0FE7BC832B6C710600091351 /* User.swift in Sources */,
 				0F3595472B4D58A20059E1C1 /* RegularBtn.swift in Sources */,

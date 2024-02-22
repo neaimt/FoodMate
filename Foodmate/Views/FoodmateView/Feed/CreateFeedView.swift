@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct CreateFeedView: View {
-    @Binding var feedList: [Feed]
-    
+//    @Binding var feedList: [Feed]
     @Environment(\.presentationMode) var presentationMode
+    
     @State var Inputtitle: String = ""
     @State var Inputcontent: String = ""
 
@@ -58,6 +58,43 @@ struct CreateFeedView: View {
 
                 Divider()
                 
+                HStack {
+                    VStack(alignment: .leading) {
+                        Text("필수 기재 사항")
+                            .font(.Pretendard(.semibold, size: 16))
+                            .padding(.bottom, 10)
+                        
+                        HStack {
+                            Text("메뉴")
+                                .font(.Pretendard(.semibold, size: 12))
+                        }
+                        .padding(.bottom, 10)
+                        
+                        HStack {
+                            Text("배달비")
+                                .font(.Pretendard(.semibold, size: 12))
+                            
+                        }
+                        .padding(.bottom, 10)
+                        
+                        HStack {
+                            Text("주문시간")
+                                .font(.Pretendard(.semibold, size: 12))
+                            
+                        }
+                        .padding(.bottom, 10)
+                        
+                        Text("푸드메이트와의 거리")
+                            .font(.Pretendard(.semibold, size: 12))
+                        Spacer()
+                    }
+                    .foregroundStyle(Color.customgray)
+                    
+                    Spacer()
+                }
+                .frame(height: 180)
+
+                Divider()
             }
             .padding(.horizontal, 20)
             .padding(.top, 20)
@@ -81,9 +118,9 @@ struct CreateFeedView: View {
                     Spacer()
                     
                     Button(action: {
-                        feedList.append(Feed(nickname: "ss", date: "ss", title: Inputtitle, content: Inputcontent, menu: "ss", deliveryFee: "ss", time: "ss"))
+//                        feedList.append(Feed(nickname: "ss", date: "ss", title: Inputtitle, content: Inputcontent, menu: "ss", deliveryFee: "ss", time: "ss"))
                         
-                        presentationMode.wrappedValue.dismiss()
+//                        presentationMode.wrappedValue.dismiss()
                         
                     }, label: {
                         ZStack {
@@ -106,4 +143,6 @@ struct CreateFeedView: View {
     }
 }
 
-
+#Preview {
+    CreateFeedView()
+}
