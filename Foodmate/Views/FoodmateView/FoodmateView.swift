@@ -131,7 +131,7 @@ struct AddFeedBtn: View {
     
     var body: some View {
         NavigationLink {
-//            CreateFeedView(feedList: $feedList)
+            CreateFeedView(feedList: $feedList)
         } label: {
             ZStack {
                 Circle()

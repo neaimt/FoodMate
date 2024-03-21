@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CreateFeedView: View {
-//    @Binding var feedList: [Feed]
+    @Binding var feedList: [Feed]
     @Environment(\.presentationMode) var presentationMode
     
     @State var Inputtitle: String = ""
@@ -118,9 +118,9 @@ struct CreateFeedView: View {
                     Spacer()
                     
                     Button(action: {
-//                        feedList.append(Feed(nickname: "ss", date: "ss", title: Inputtitle, content: Inputcontent, menu: "ss", deliveryFee: "ss", time: "ss"))
+                        feedList.append(Feed(nickname: "ss", date: "ss", title: Inputtitle, content: Inputcontent, menu: "ss", deliveryFee: "ss", time: "ss"))
                         
-//                        presentationMode.wrappedValue.dismiss()
+                        presentationMode.wrappedValue.dismiss()
                         
                     }, label: {
                         ZStack {
@@ -141,8 +141,4 @@ struct CreateFeedView: View {
         .ignoresSafeArea()
         .navigationBarBackButtonHidden()
     }
-}
-
-#Preview {
-    CreateFeedView()
 }

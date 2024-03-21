@@ -56,7 +56,6 @@ struct LoginView1: View {
                 TabBarView()}, title: "로그인", colorname: "custompink")
             Spacer()
                 .frame(height: screenHeight/3)
-            
         }
     }
 }

@@ -12,6 +12,7 @@ import SwiftUI
 
 struct RecipeSearchView: View {
     @State var InputMenu: String = ""
+
     
     var body: some View {
         VStack {
@@ -50,14 +51,13 @@ struct RecipeSearchView: View {
                             .onSubmit {
                                 InputMenu = ""
                             }
-                        
                     }
                     .frame(height: 35)
                     .padding(.horizontal, 15)
                 }
                 .padding(.top, 40)
             }
-            .ignoresSafeArea()
+            
             
             ZStack {
                 Rectangle()
@@ -97,6 +97,7 @@ struct RecipeSearchView: View {
             
             Spacer()
         }
+        .ignoresSafeArea()
     }
 }
 
