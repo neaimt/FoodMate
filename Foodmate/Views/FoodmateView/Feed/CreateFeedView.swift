@@ -118,7 +118,18 @@ struct CreateFeedView: View {
                     Spacer()
                     
                     Button(action: {
-                        feedList.append(Feed(nickname: "ss", date: "ss", title: Inputtitle, content: Inputcontent, menu: "ss", deliveryFee: "ss", time: "ss"))
+//                        postFoodmate(user: Foodmate(postid: 1, userid: "111", title: "치킨 먹을사람", body: "저요 dksldy", time: Date(timeIntervalSince1970: 1599811410), lat: 10.1, lng: 23.1, deliveryCost: 1000, deliveryTime: 30, deliveryFood: "피자")) { result in
+//                            switch result {
+//                            case .success(let data):
+//                                if let responseString = String(data: data, encoding: .utf8) {
+//                                    print("Response data: \(responseString)")
+//                                    
+//                                    
+//                                }
+//                            case .failure(let error):
+//                                print("Error: \(error)")
+//                            }
+//                        }
                         
                         presentationMode.wrappedValue.dismiss()
                         

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F04A95E2C03034E00F36449 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F04A95D2C03034E00F36449 /* Recipe.swift */; };
+		0F04A9602C0305AC00F36449 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F04A95F2C0305AC00F36449 /* Comment.swift */; };
+		0F170CA62BF5B6390051FD64 /* ServerAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F170CA52BF5B6390051FD64 /* ServerAddress.swift */; };
+		0F170CA82BF5BBA70051FD64 /* Foodmate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F170CA72BF5BBA70051FD64 /* Foodmate.swift */; };
+		0F1BD7D62BBAC72B00BE8B62 /* MypageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1BD7D52BBAC72B00BE8B62 /* MypageView.swift */; };
+		0F1BD7D82BBAE53800BE8B62 /* PageBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1BD7D72BBAE53800BE8B62 /* PageBtn.swift */; };
 		0F289DF02B86DA2C00A483DB /* RecipeSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F289DEF2B86DA2C00A483DB /* RecipeSearchView.swift */; };
 		0F289DF22B86DD8E00A483DB /* RecipeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F289DF12B86DD8E00A483DB /* RecipeImage.swift */; };
 		0F3232E82B8365FF00386E2B /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3232E72B8365FF00386E2B /* FeedView.swift */; };
@@ -20,7 +26,6 @@
 		0F35954D2B4DB58B0059E1C1 /* LoginTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F35954C2B4DB58B0059E1C1 /* LoginTextFieldModifier.swift */; };
 		0F3595522B4E98AE0059E1C1 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3595512B4E98AE0059E1C1 /* SignupView.swift */; };
 		0F3595542B4E9AAE0059E1C1 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3595532B4E9AAE0059E1C1 /* ProgressBar.swift */; };
-		0F4D15C02B8B43160032CD9A /* LoginNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4D15BF2B8B43160032CD9A /* LoginNetwork.swift */; };
 		0F544E082B82D8E0002616EC /* AddressSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F544E072B82D8E0002616EC /* AddressSearchView.swift */; };
 		0F544E0A2B82E3BA002616EC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F544E092B82E3BA002616EC /* MapView.swift */; };
 		0F6DE2882BA183F40083AC24 /* MenuRecomandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6DE2872BA183F40083AC24 /* MenuRecomandView.swift */; };
@@ -31,6 +36,7 @@
 		0F7F0ADE2B7E357E00F1F3C8 /* TabBarItemPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F0ADD2B7E357E00F1F3C8 /* TabBarItemPreferenceKey.swift */; };
 		0F7F0AE02B7E36F000F1F3C8 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F0ADF2B7E36F000F1F3C8 /* TabBarView.swift */; };
 		0F7F0AE52B81D94400F1F3C8 /* FoodmateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F0AE42B81D94400F1F3C8 /* FoodmateView.swift */; };
+		0F8A1D192BECAAEE00E3792C /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8A1D182BECAAEE00E3792C /* Chat.swift */; };
 		0F8C392E2B4C02DE0039AA0B /* FoodmateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C392D2B4C02DE0039AA0B /* FoodmateApp.swift */; };
 		0F8C39302B4C02DE0039AA0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C392F2B4C02DE0039AA0B /* ContentView.swift */; };
 		0F8C39322B4C02DF0039AA0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F8C39312B4C02DF0039AA0B /* Assets.xcassets */; };
@@ -58,9 +64,20 @@
 		0F8C398E2B4C0C300039AA0B /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C398B2B4C0C300039AA0B /* FontManager.swift */; };
 		0FA0F3912B74EE9E000D1ACE /* MainHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0F3902B74EE9E000D1ACE /* MainHeader.swift */; };
 		0FA0F3942B74F550000D1ACE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0F3932B74F550000D1ACE /* MainView.swift */; };
+		0FA37C732BF206C20041ABEC /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA37C722BF206C20041ABEC /* SignUp.swift */; };
+		0FA37C752BF208020041ABEC /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA37C742BF208020041ABEC /* Login.swift */; };
+		0FA37C772BF20B4A0041ABEC /* Refrigerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA37C762BF20B4A0041ABEC /* Refrigerator.swift */; };
+		0FABFC2D2BE7C06200389BAC /* RefrigeratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FABFC2C2BE7C06200389BAC /* RefrigeratorView.swift */; };
+		0FABFC2F2BE7C19500389BAC /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FABFC2E2BE7C19500389BAC /* Ingredient.swift */; };
+		0FE2E7D72BB66C230005C481 /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE2E7D62BB66C230005C481 /* ChatListView.swift */; };
+		0FE2E7D92BB66D970005C481 /* ChatRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE2E7D82BB66D970005C481 /* ChatRow.swift */; };
+		0FE2E7DD2BB67E340005C481 /* ChatRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE2E7DC2BB67E340005C481 /* ChatRoomView.swift */; };
+		0FE2E7DF2BB682D30005C481 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE2E7DE2BB682D30005C481 /* Message.swift */; };
 		0FE7BC832B6C710600091351 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE7BC822B6C710600091351 /* User.swift */; };
 		0FE7BC852B6C72CF00091351 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE7BC842B6C72CF00091351 /* OnboardingView.swift */; };
-		0FE7BC8A2B6C734600091351 /* ComponentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE7BC892B6C734600091351 /* ComponentManager.swift */; };
+		1A4AB22E578A1EE077B889E3 /* Pods_FoodmateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0D72BA88F59D9C245905DF /* Pods_FoodmateTests.framework */; };
+		68125152E4170D83AE1AA67C /* Pods_Foodmate_FoodmateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A2C366CD64EE4D0C518D65 /* Pods_Foodmate_FoodmateUITests.framework */; };
+		8C49E8F46C3F12722FB88B4D /* Pods_Foodmate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0697879169BEF944BE8F1C /* Pods_Foodmate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +98,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		093BFB63B26E1CDC91DF7B86 /* Pods-FoodmateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodmateTests.debug.xcconfig"; path = "Target Support Files/Pods-FoodmateTests/Pods-FoodmateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F04A95D2C03034E00F36449 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		0F04A95F2C0305AC00F36449 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		0F170CA52BF5B6390051FD64 /* ServerAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerAddress.swift; sourceTree = "<group>"; };
+		0F170CA72BF5BBA70051FD64 /* Foodmate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foodmate.swift; sourceTree = "<group>"; };
+		0F1BD7D52BBAC72B00BE8B62 /* MypageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageView.swift; sourceTree = "<group>"; };
+		0F1BD7D72BBAE53800BE8B62 /* PageBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageBtn.swift; sourceTree = "<group>"; };
 		0F289DEF2B86DA2C00A483DB /* RecipeSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSearchView.swift; sourceTree = "<group>"; };
 		0F289DF12B86DD8E00A483DB /* RecipeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeImage.swift; sourceTree = "<group>"; };
 		0F3232E72B8365FF00386E2B /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
@@ -94,7 +118,6 @@
 		0F35954C2B4DB58B0059E1C1 /* LoginTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextFieldModifier.swift; sourceTree = "<group>"; };
 		0F3595512B4E98AE0059E1C1 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		0F3595532B4E9AAE0059E1C1 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
-		0F4D15BF2B8B43160032CD9A /* LoginNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNetwork.swift; sourceTree = "<group>"; };
 		0F544E072B82D8E0002616EC /* AddressSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressSearchView.swift; sourceTree = "<group>"; };
 		0F544E092B82E3BA002616EC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0F6DE2872BA183F40083AC24 /* MenuRecomandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRecomandView.swift; sourceTree = "<group>"; };
@@ -105,6 +128,7 @@
 		0F7F0ADD2B7E357E00F1F3C8 /* TabBarItemPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemPreferenceKey.swift; sourceTree = "<group>"; };
 		0F7F0ADF2B7E36F000F1F3C8 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		0F7F0AE42B81D94400F1F3C8 /* FoodmateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodmateView.swift; sourceTree = "<group>"; };
+		0F8A1D182BECAAEE00E3792C /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		0F8C392A2B4C02DE0039AA0B /* Foodmate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodmate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8C392D2B4C02DE0039AA0B /* FoodmateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodmateApp.swift; sourceTree = "<group>"; };
 		0F8C392F2B4C02DE0039AA0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -124,9 +148,25 @@
 		0F8C398B2B4C0C300039AA0B /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
 		0FA0F3902B74EE9E000D1ACE /* MainHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHeader.swift; sourceTree = "<group>"; };
 		0FA0F3932B74F550000D1ACE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		0FA37C722BF206C20041ABEC /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		0FA37C742BF208020041ABEC /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		0FA37C762BF20B4A0041ABEC /* Refrigerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refrigerator.swift; sourceTree = "<group>"; };
+		0FABFC2C2BE7C06200389BAC /* RefrigeratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefrigeratorView.swift; sourceTree = "<group>"; };
+		0FABFC2E2BE7C19500389BAC /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		0FE2E7D62BB66C230005C481 /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		0FE2E7D82BB66D970005C481 /* ChatRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRow.swift; sourceTree = "<group>"; };
+		0FE2E7DC2BB67E340005C481 /* ChatRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomView.swift; sourceTree = "<group>"; };
+		0FE2E7DE2BB682D30005C481 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		0FE7BC822B6C710600091351 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0FE7BC842B6C72CF00091351 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		0FE7BC892B6C734600091351 /* ComponentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentManager.swift; sourceTree = "<group>"; };
+		41006656514B7A4FCFB34F23 /* Pods-FoodmateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodmateTests.release.xcconfig"; path = "Target Support Files/Pods-FoodmateTests/Pods-FoodmateTests.release.xcconfig"; sourceTree = "<group>"; };
+		9E0D72BA88F59D9C245905DF /* Pods_FoodmateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodmateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A2C366CD64EE4D0C518D65 /* Pods_Foodmate_FoodmateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foodmate_FoodmateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7C2D92819E759C7E3CCAB8 /* Pods-Foodmate-FoodmateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodmate-FoodmateUITests.debug.xcconfig"; path = "Target Support Files/Pods-Foodmate-FoodmateUITests/Pods-Foodmate-FoodmateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD658074AB3F6D2CF985D820 /* Pods-Foodmate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodmate.release.xcconfig"; path = "Target Support Files/Pods-Foodmate/Pods-Foodmate.release.xcconfig"; sourceTree = "<group>"; };
+		CC0697879169BEF944BE8F1C /* Pods_Foodmate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foodmate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37315478F2FE90B1E124267 /* Pods-Foodmate-FoodmateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodmate-FoodmateUITests.release.xcconfig"; path = "Target Support Files/Pods-Foodmate-FoodmateUITests/Pods-Foodmate-FoodmateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F165172FAB9B667139E16342 /* Pods-Foodmate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodmate.debug.xcconfig"; path = "Target Support Files/Pods-Foodmate/Pods-Foodmate.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +174,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C49E8F46C3F12722FB88B4D /* Pods_Foodmate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +182,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A4AB22E578A1EE077B889E3 /* Pods_FoodmateTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,12 +190,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68125152E4170D83AE1AA67C /* Pods_Foodmate_FoodmateUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F1BD7D42BBAC6D300BE8B62 /* MypageView */ = {
+			isa = PBXGroup;
+			children = (
+				0F1BD7D52BBAC72B00BE8B62 /* MypageView.swift */,
+				0FABFC2C2BE7C06200389BAC /* RefrigeratorView.swift */,
+			);
+			path = MypageView;
+			sourceTree = "<group>";
+		};
+		0F1BD7D92BBC1E5200BE8B62 /* Communucation */ = {
+			isa = PBXGroup;
+			children = (
+				0F8A1D182BECAAEE00E3792C /* Chat.swift */,
+				0FA37C722BF206C20041ABEC /* SignUp.swift */,
+				0FA37C742BF208020041ABEC /* Login.swift */,
+				0FA37C762BF20B4A0041ABEC /* Refrigerator.swift */,
+				0F170CA52BF5B6390051FD64 /* ServerAddress.swift */,
+				0F170CA72BF5BBA70051FD64 /* Foodmate.swift */,
+				0F04A95F2C0305AC00F36449 /* Comment.swift */,
+			);
+			path = Communucation;
+			sourceTree = "<group>";
+		};
 		0F3232EB2B8448C900386E2B /* Feed */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,12 +244,13 @@
 				0F3595482B4DACCA0059E1C1 /* Header.swift */,
 				0F35954C2B4DB58B0059E1C1 /* LoginTextFieldModifier.swift */,
 				0F3595532B4E9AAE0059E1C1 /* ProgressBar.swift */,
-				0FE7BC892B6C734600091351 /* ComponentManager.swift */,
 				0FA0F3902B74EE9E000D1ACE /* MainHeader.swift */,
 				0F7F0AD62B7E218300F1F3C8 /* CustomTabView */,
 				0F3232E92B84422900386E2B /* ClearBackground.swift */,
 				0F289DF12B86DD8E00A483DB /* RecipeImage.swift */,
 				0F6DE2892BA184920083AC24 /* MenuBtn.swift */,
+				0FE2E7DE2BB682D30005C481 /* Message.swift */,
+				0F1BD7D72BBAE53800BE8B62 /* PageBtn.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -213,11 +280,13 @@
 			children = (
 				0F8C392D2B4C02DE0039AA0B /* FoodmateApp.swift */,
 				0F8C392F2B4C02DE0039AA0B /* ContentView.swift */,
-				0F35953E2B4D53390059E1C1 /* LoginView */,
 				0F3595502B4E988C0059E1C1 /* SignupView */,
+				0F35953E2B4D53390059E1C1 /* LoginView */,
 				0FA0F3922B74F53B000D1ACE /* MainView */,
 				0F7F0AE22B81D8EA00F1F3C8 /* SearchView */,
 				0F7F0AE32B81D91800F1F3C8 /* FoodmateView */,
+				0FE2E7D52BB66C0F0005C481 /* ChatView */,
+				0F1BD7D42BBAC6D300BE8B62 /* MypageView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -250,6 +319,8 @@
 				0F8C39892B4C0BD90039AA0B /* Resource */,
 				0F8C39572B4C05970039AA0B /* etc */,
 				0F8C392B2B4C02DE0039AA0B /* Products */,
+				FCBA0A09B77A468282A29D1D /* Pods */,
+				9BA4EF066FAA3B28CC3C0988 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -269,6 +340,7 @@
 				0F8C395B2B4C07280039AA0B /* Info.plist */,
 				0F3595452B4D588B0059E1C1 /* Component */,
 				0F7F0AE12B7EFDC500F1F3C8 /* Views */,
+				0F1BD7D92BBC1E5200BE8B62 /* Communucation */,
 				0FE7BC812B6C70ED00091351 /* Model */,
 				0F8C39332B4C02DF0039AA0B /* Preview Content */,
 			);
@@ -348,14 +420,48 @@
 			path = MainView;
 			sourceTree = "<group>";
 		};
+		0FE2E7D52BB66C0F0005C481 /* ChatView */ = {
+			isa = PBXGroup;
+			children = (
+				0FE2E7D62BB66C230005C481 /* ChatListView.swift */,
+				0FE2E7D82BB66D970005C481 /* ChatRow.swift */,
+				0FE2E7DC2BB67E340005C481 /* ChatRoomView.swift */,
+			);
+			path = ChatView;
+			sourceTree = "<group>";
+		};
 		0FE7BC812B6C70ED00091351 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				0FE7BC822B6C710600091351 /* User.swift */,
 				0F3232F12B84561E00386E2B /* Feed.swift */,
-				0F4D15BF2B8B43160032CD9A /* LoginNetwork.swift */,
+				0FABFC2E2BE7C19500389BAC /* Ingredient.swift */,
+				0F04A95D2C03034E00F36449 /* Recipe.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		9BA4EF066FAA3B28CC3C0988 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC0697879169BEF944BE8F1C /* Pods_Foodmate.framework */,
+				A7A2C366CD64EE4D0C518D65 /* Pods_Foodmate_FoodmateUITests.framework */,
+				9E0D72BA88F59D9C245905DF /* Pods_FoodmateTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCBA0A09B77A468282A29D1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F165172FAB9B667139E16342 /* Pods-Foodmate.debug.xcconfig */,
+				AD658074AB3F6D2CF985D820 /* Pods-Foodmate.release.xcconfig */,
+				AA7C2D92819E759C7E3CCAB8 /* Pods-Foodmate-FoodmateUITests.debug.xcconfig */,
+				E37315478F2FE90B1E124267 /* Pods-Foodmate-FoodmateUITests.release.xcconfig */,
+				093BFB63B26E1CDC91DF7B86 /* Pods-FoodmateTests.debug.xcconfig */,
+				41006656514B7A4FCFB34F23 /* Pods-FoodmateTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,9 +471,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F8C394E2B4C02DF0039AA0B /* Build configuration list for PBXNativeTarget "Foodmate" */;
 			buildPhases = (
+				0A690368DD0B3F3157DE09C4 /* [CP] Check Pods Manifest.lock */,
 				0F8C39262B4C02DE0039AA0B /* Sources */,
 				0F8C39272B4C02DE0039AA0B /* Frameworks */,
 				0F8C39282B4C02DE0039AA0B /* Resources */,
+				84187DE4C0AD2FA03EAF2E6C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -382,6 +490,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F8C39512B4C02DF0039AA0B /* Build configuration list for PBXNativeTarget "FoodmateTests" */;
 			buildPhases = (
+				AEBAD86E90F5B45A726F06DB /* [CP] Check Pods Manifest.lock */,
 				0F8C39362B4C02DF0039AA0B /* Sources */,
 				0F8C39372B4C02DF0039AA0B /* Frameworks */,
 				0F8C39382B4C02DF0039AA0B /* Resources */,
@@ -400,9 +509,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F8C39542B4C02DF0039AA0B /* Build configuration list for PBXNativeTarget "FoodmateUITests" */;
 			buildPhases = (
+				DE8F322CB58069FF6F480B47 /* [CP] Check Pods Manifest.lock */,
 				0F8C39402B4C02DF0039AA0B /* Sources */,
 				0F8C39412B4C02DF0039AA0B /* Frameworks */,
 				0F8C39422B4C02DF0039AA0B /* Resources */,
+				B5AD8374AA42DD704832B1BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -422,7 +533,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
-				LastUpgradeCheck = 1510;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					0F8C39292B4C02DE0039AA0B = {
 						CreatedOnToolsVersion = 15.1;
@@ -499,6 +610,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A690368DD0B3F3157DE09C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foodmate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84187DE4C0AD2FA03EAF2E6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foodmate/Pods-Foodmate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foodmate/Pods-Foodmate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Foodmate/Pods-Foodmate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEBAD86E90F5B45A726F06DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodmateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5AD8374AA42DD704832B1BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foodmate-FoodmateUITests/Pods-Foodmate-FoodmateUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foodmate-FoodmateUITests/Pods-Foodmate-FoodmateUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Foodmate-FoodmateUITests/Pods-Foodmate-FoodmateUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE8F322CB58069FF6F480B47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foodmate-FoodmateUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F8C39262B4C02DE0039AA0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -511,11 +725,13 @@
 				0F544E0A2B82E3BA002616EC /* MapView.swift in Sources */,
 				0F3232ED2B84492500386E2B /* CreateFeedView.swift in Sources */,
 				0F7F0ADE2B7E357E00F1F3C8 /* TabBarItemPreferenceKey.swift in Sources */,
-				0F4D15C02B8B43160032CD9A /* LoginNetwork.swift in Sources */,
+				0FA37C752BF208020041ABEC /* Login.swift in Sources */,
+				0F8A1D192BECAAEE00E3792C /* Chat.swift in Sources */,
 				0F7F0ADA2B7E253100F1F3C8 /* CustomTabBarView.swift in Sources */,
 				0F289DF02B86DA2C00A483DB /* RecipeSearchView.swift in Sources */,
 				0F8C398C2B4C0C300039AA0B /* FontManager.swift in Sources */,
 				0F544E082B82D8E0002616EC /* AddressSearchView.swift in Sources */,
+				0FABFC2F2BE7C19500389BAC /* Ingredient.swift in Sources */,
 				0F7F0AE02B7E36F000F1F3C8 /* TabBarView.swift in Sources */,
 				0F7F0AE52B81D94400F1F3C8 /* FoodmateView.swift in Sources */,
 				0F3595402B4D534F0059E1C1 /* LoginView.swift in Sources */,
@@ -523,19 +739,31 @@
 				0FA0F3912B74EE9E000D1ACE /* MainHeader.swift in Sources */,
 				0F3595522B4E98AE0059E1C1 /* SignupView.swift in Sources */,
 				0F6DE2882BA183F40083AC24 /* MenuRecomandView.swift in Sources */,
+				0FA37C732BF206C20041ABEC /* SignUp.swift in Sources */,
+				0F1BD7D62BBAC72B00BE8B62 /* MypageView.swift in Sources */,
 				0F3232E82B8365FF00386E2B /* FeedView.swift in Sources */,
+				0F04A95E2C03034E00F36449 /* Recipe.swift in Sources */,
 				0F8C392E2B4C02DE0039AA0B /* FoodmateApp.swift in Sources */,
 				0F289DF22B86DD8E00A483DB /* RecipeImage.swift in Sources */,
+				0FE2E7D72BB66C230005C481 /* ChatListView.swift in Sources */,
+				0F170CA62BF5B6390051FD64 /* ServerAddress.swift in Sources */,
+				0F04A9602C0305AC00F36449 /* Comment.swift in Sources */,
+				0FA37C772BF20B4A0041ABEC /* Refrigerator.swift in Sources */,
 				0F3595492B4DACCA0059E1C1 /* Header.swift in Sources */,
 				0F6DE28A2BA184920083AC24 /* MenuBtn.swift in Sources */,
 				0FE7BC832B6C710600091351 /* User.swift in Sources */,
 				0F3536942BA4314300E72791 /* MenuView.swift in Sources */,
+				0FE2E7DF2BB682D30005C481 /* Message.swift in Sources */,
+				0F170CA82BF5BBA70051FD64 /* Foodmate.swift in Sources */,
+				0FABFC2D2BE7C06200389BAC /* RefrigeratorView.swift in Sources */,
 				0F3595472B4D58A20059E1C1 /* RegularBtn.swift in Sources */,
+				0FE2E7DD2BB67E340005C481 /* ChatRoomView.swift in Sources */,
 				0F7F0ADC2B7E341A00F1F3C8 /* CustomTabBarContainerView.swift in Sources */,
 				0F7F0AD82B7E21A500F1F3C8 /* TabBarItem.swift in Sources */,
 				0FE7BC852B6C72CF00091351 /* OnboardingView.swift in Sources */,
-				0FE7BC8A2B6C734600091351 /* ComponentManager.swift in Sources */,
+				0FE2E7D92BB66D970005C481 /* ChatRow.swift in Sources */,
 				0F3232EA2B84422900386E2B /* ClearBackground.swift in Sources */,
+				0F1BD7D82BBAE53800BE8B62 /* PageBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,6 +807,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -611,7 +840,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -626,7 +855,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -642,6 +871,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -674,7 +904,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -683,7 +913,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -695,6 +925,7 @@
 		};
 		0F8C394F2B4C02DF0039AA0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F165172FAB9B667139E16342 /* Pods-Foodmate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -705,13 +936,13 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Foodmate/Info.plist;
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "extension ViewController: CLLocationManagerDelegate {\n    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {\n        guard let location = locations.last else { return }\n        print(\"longitude : \",location.coordinate.longitude)\n        print(\"latitude : \",location.coordinate.latitude)\n    }\n}";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "위치 설정";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -731,6 +962,7 @@
 		};
 		0F8C39502B4C02DF0039AA0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD658074AB3F6D2CF985D820 /* Pods-Foodmate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -741,13 +973,13 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Foodmate/Info.plist;
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "extension ViewController: CLLocationManagerDelegate {\n    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {\n        guard let location = locations.last else { return }\n        print(\"longitude : \",location.coordinate.longitude)\n        print(\"latitude : \",location.coordinate.latitude)\n    }\n}";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "위치 설정";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -767,6 +999,7 @@
 		};
 		0F8C39522B4C02DF0039AA0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 093BFB63B26E1CDC91DF7B86 /* Pods-FoodmateTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -774,7 +1007,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 89CUP3B44N;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = neaimt.FoodmateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -787,6 +1020,7 @@
 		};
 		0F8C39532B4C02DF0039AA0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41006656514B7A4FCFB34F23 /* Pods-FoodmateTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -794,7 +1028,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 89CUP3B44N;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = neaimt.FoodmateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -807,6 +1041,7 @@
 		};
 		0F8C39552B4C02DF0039AA0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA7C2D92819E759C7E3CCAB8 /* Pods-Foodmate-FoodmateUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -825,6 +1060,7 @@
 		};
 		0F8C39562B4C02DF0039AA0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E37315478F2FE90B1E124267 /* Pods-Foodmate-FoodmateUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

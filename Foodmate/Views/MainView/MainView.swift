@@ -99,47 +99,6 @@ struct MainView: View {
         }
 }
 
-
-// MARK: 임시 ! 재료 모델 따로 만들기!
-class ingredient: Identifiable {
-    let name: String
-    var id = UUID()
-    var isChecked: Bool
-    
-    init(name: String, id: UUID = UUID(), isChecked: Bool) {
-        self.name = name
-        self.id = id
-        self.isChecked = isChecked
-    }
-}
-
-private var listrow = [
-    ingredient(name: "대파", isChecked: false),
-    ingredient(name: "양파", isChecked: false),
-    ingredient(name: "파프리카", isChecked: false),
-    ingredient(name: "계란", isChecked: false),
-    ingredient(name: "버섯", isChecked: false),
-    ingredient(name: "마늘", isChecked: false),
-    ingredient(name: "고추", isChecked: false),
-    ingredient(name: "메론", isChecked: false),
-    ingredient(name: "바나나", isChecked: false),
-    ingredient(name: "키위", isChecked: false),
-    ingredient(name: "쌀", isChecked: false),
-    ingredient(name: "쪽파", isChecked: false),
-    ingredient(name: "와사비", isChecked: false),
-    ingredient(name: "배", isChecked: false),
-    ingredient(name: "딸기", isChecked: false),
-    ingredient(name: "현미", isChecked: false),
-    ingredient(name: "고등어", isChecked: false),
-    ingredient(name: "삼치", isChecked: false),
-    ingredient(name: "당근", isChecked: false),
-    ingredient(name: "사과", isChecked: false),
-    ingredient(name: "갈비", isChecked: false),
-    ingredient(name: "삼겹살", isChecked: false),
-    ingredient(name: "오징어", isChecked: false),
-    ingredient(name: "만두", isChecked: false)
-]
-
 // MARK: sheet 페이지 - 재료 선택하는 뷰
 struct ListView: View {
     @Binding var isShowingSheet: Bool

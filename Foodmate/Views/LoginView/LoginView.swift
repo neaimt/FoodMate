@@ -54,6 +54,17 @@ struct LoginView1: View {
             
             RegularBtn(destinationView: {
                 TabBarView()}, title: "로그인", colorname: "custompink")
+//            .onAppear {
+//                login(username: "123", password: "123") { result in
+//                    switch result {
+//                    case .success(let welcome):
+//                        print("로그인 성공: \(welcome)")
+//                    case .failure(let error):
+//                        print("로그인 실패: \(error)")
+//                    }
+//                 }
+//            }
+//        
             Spacer()
                 .frame(height: screenHeight/3)
         }

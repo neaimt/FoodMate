@@ -17,11 +17,25 @@ struct TabBarView: View {
                     .tabBarItem(tab: .search, selection: $tabSelection)
                 FoodmateView()
                     .tabBarItem(tab: .mate, selection: $tabSelection)
+//                    .onTapGesture {
+//                        getFoodmates { result in
+//                            switch result {
+//                            case .success(let foodmates):
+//                                for foodmate in foodmates {
+//                                    print(foodmate)
+//                                }
+//                            case .failure(let error):
+//                                print("Error fetching foodmates: \(error)")
+//                            }
+//                        }
+//                    }
+                
+
                 MainView()
                     .tabBarItem(tab: .home, selection: $tabSelection)
-                Text("채팅")
+                ChatListView()
                     .tabBarItem(tab: .message, selection: $tabSelection)
-                Text("마이페이지")
+                MypageView()
                     .tabBarItem(tab: .profile, selection: $tabSelection)
             }
             .ignoresSafeArea()

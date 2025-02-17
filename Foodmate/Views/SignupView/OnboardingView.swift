@@ -12,28 +12,40 @@ struct OnboardingView: View {
     let _img = ["Obd1", "Obd1"]
     
     var body: some View {
-        GeometryReader { geo in
-            
-            VStack {
-                TabView {
-                    ForEach(0..<2) { index in
-                        Explain(title: _title[index],mini_title: _minititle[index], img: _img[index])
+        NavigationStack {
+            GeometryReader { geo in
+                
+                VStack {
+                    TabView {
+                        ForEach(0..<2) { index in
+                            Explain(title: _title[index],mini_title: _minititle[index], img: _img[index])
+                        }
+                    }
+                    .frame(width: geo.size.width, height: 500)
+                    .tabViewStyle(PageTabViewStyle())
+                    .onAppear{
+                        setupAppearance()
+                    }
+                    HStack {
+                        NavigationLink {
+                            RefrigeratorView()
+                        } label: {
+                            Btn(title: "재료 추가하기", color:"custompink", fontcolor: .white)
+                        }
+                        
+                        Spacer()
+                            .frame(width: 15)
+                        
+                        NavigationLink {
+                            TabBarView()
+                        } label: {
+                            Btn(title: "나중에 채우기", color: "customwhitegray", fontcolor: .customgray)
+                        }
                     }
                 }
-                .frame(width: geo.size.width, height: 500)
-                .tabViewStyle(PageTabViewStyle())
-                .onAppear{
-                    setupAppearance()
-                }
-                HStack {
-                    Btn(title: "재료 추가하기", color:"custompink", fontcolor: .white)
-                    Spacer()
-                        .frame(width: 15)
-                    Btn(title: "나중에 채우기", color: "customwhitegray", fontcolor: .customgray)
-                }
+                .padding(.top, 50)
             }
-            .padding(.top, 50)
-    }
+        }
 }
     
     func setupAppearance() {
@@ -65,24 +77,15 @@ struct Btn: View {
     let fontcolor: Color
 
     var body: some View {
-        Button {
-            
-        } label: {
-            NavigationLink {
-                Text("d")
-            } label: {
-                ZStack {
-                    RoundedRectangle(cornerRadius: 20)
-                        .fill(Color(color))
-                        .frame(width: 145, height: 60)
-                    Text(title)
-                        .foregroundStyle(fontcolor)
-                        .font(.Pretendard(.semibold, size: 16))
-                }
+        ZStack {
+            RoundedRectangle(cornerRadius: 20)
+                .fill(Color(color))
+                .frame(width: 145, height: 60)
+            Text(title)
+                    .foregroundStyle(fontcolor)
+                    .font(.Pretendard(.semibold, size: 16))
             }
-            .navigationBarBackButtonHidden(true)
         }
-    }
 }
 
 #Preview {

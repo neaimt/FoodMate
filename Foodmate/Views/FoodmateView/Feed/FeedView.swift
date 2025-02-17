@@ -9,9 +9,7 @@ import SwiftUI
 
 struct FeedView: View {
     @State var isChat: Bool = false
-    
-    @State var InputFeed: String = ""
-    @State var textHeight: CGFloat = 400
+    @State var feed: Feed
     
     var body: some View {
         VStack {
@@ -21,16 +19,16 @@ struct FeedView: View {
                     .fill(Color.white)
                     
                 VStack(alignment: .leading) {
-                    Text(FeedList[0].nickname)
+                    Text(feed.nickname)
                         .font(.Pretendard(.semibold, size:16))
                     
-                    Text(FeedList[0].date)
+                    Text(feed.date)
                         .font(.Pretendard(.regular, size:8))
                     
-                    Text(FeedList[0].title)
+                    Text(feed.title)
                         .font(.Pretendard(.semibold, size:16))
                     
-                    Text(FeedList[0].content)
+                    Text(feed.content)
                         .font(.Pretendard(.regular, size:12))
                     
     
@@ -66,11 +64,11 @@ struct FeedView: View {
                     .padding()
                     
                     VStack(alignment: .leading) {
-                        Text("･ \(FeedList[0].menu)")
+                        Text("･ \(feed.menu)")
                             .padding(.bottom,3)
-                        Text("･ \(FeedList[0].deliveryFee)")
+                        Text("･ \(feed.deliveryFee)")
                             .padding(.bottom,3)
-                        Text("･ \(FeedList[0].time)")
+                        Text("･ \(feed.time)")
                     }
                     .font(.Pretendard(.regular, size: 12))
                     .padding()
@@ -101,7 +99,7 @@ struct FeedView: View {
                 }
             })
             .fullScreenCover(isPresented: $isChat, content: {
-                ChatSendBoxView(isChat: $isChat)
+                ChatSendBoxView(feed: $feed, isChat: $isChat)
                     .ignoresSafeArea()
                     .background(ClearBackground())
             })
@@ -111,6 +109,7 @@ struct FeedView: View {
 }
 
 struct ChatSendBoxView: View {
+    @Binding var feed: Feed
     @Binding var isChat: Bool
     @State var chating: Bool = false
     
@@ -122,7 +121,7 @@ struct ChatSendBoxView: View {
                 .frame(width: 250, height: 180)
                 
             VStack {
-                Text("\(FeedList[0].nickname)님과\n채팅하시겠습니까?")
+                Text("\(feed.nickname)님과\n채팅하시겠습니까?")
                     .font(.Pretendard(.semibold, size: 14))
                     .multilineTextAlignment(.center)
                     .padding(.bottom, 10)
@@ -146,6 +145,24 @@ struct ChatSendBoxView: View {
                     
                     Button(action: {
                         chating.toggle()
+                    
+//                        postCreateChatroom(userId: feed.nickname, postId: feed.postId, participantId: "participantId") { result in
+//                            switch result {
+//                            case .success(let chatroom):
+//                                // 응답으로 받은 Chatroom 객체를 직접 처리
+//                                
+//                                ChatRoom.append(Chatroom(chatRoomId: chatroom.chatRoomId, userId: chatroom.userId, participantId: chatroom.participantId))
+//                                
+//                                print("Chatroom created successfully!")
+//                                print("Chatroom ID: \(chatroom.chatRoomId)")
+//                                print("User ID: \(chatroom.userId)")
+//                                print("Participant ID: \(chatroom.participantId)")
+//                                // 여기에 후속 작업을 추가하세요 (예: UI 업데이트)
+//                            case .failure(let error):
+//                                print("Error creating chatroom: \(error)")
+//                            }
+//                        }
+
                     }, label: {
                         ZStack {
                             RoundedRectangle(cornerRadius: 10)
@@ -157,9 +174,9 @@ struct ChatSendBoxView: View {
                         }
                     })
                     .fullScreenCover(isPresented: $chating, content: {
-                        Text("채팅 화면")
-                            .onTapGesture {
-                                chating.toggle()
+                        ChatRoomView(chatInfo: ChatRoom[0])
+                            .onDisappear {
+                                isChat.toggle()
                             }
                     })
                 }
@@ -169,43 +186,6 @@ struct ChatSendBoxView: View {
     }
 }
 
-// MARK: 목록에 나타날 피드뷰
-struct FeedListView: View {
-    // 피드 구조체에서 제목, 콘텐츠 일부, 사진 받아오기
-    var title: String
-    var subTitle: String
-    
-    var body: some View {
-        ZStack {
-            VStack {
-                Rectangle()
-                    .fill(.white)
-                    .frame(height: 70)
-                    .padding(.horizontal, 20)
-                Divider()
-                    .padding(.horizontal, 20)
-            }
-            HStack(alignment: .top) {
-                VStack(alignment: .leading) {
-                    Text(title)
-                        .font(.Pretendard(.semibold, size: 12))
-                    
-                    Text(subTitle)
-                        .font(.Pretendard(.regular, size: 10))
-                }
-                .padding(.top, 8)
-                .foregroundStyle(Color.black)
-                
-                Spacer()
-                
-                ImageView(width: 60, height: 60)
-            }
-            .padding(.horizontal, 30)
-        }
-        .frame(height: 80)
-    }
-}
-
 #Preview {
-    FeedView()
+    FeedView(feed: FeedList[0])
 }

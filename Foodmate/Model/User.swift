@@ -6,11 +6,4 @@
 //
 
 import Foundation
-struct UserData {
-    let Id: String
-    var Pw: String
-    
-    let Name: String
-    var NickName: String
-    var email: String
-}
+// 회원가입 구조체

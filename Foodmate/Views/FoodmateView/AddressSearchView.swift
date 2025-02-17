@@ -69,6 +69,8 @@ struct AddressSearchView: View {
             }
             .padding(.top, 20)
             
+//            MapView()
+            
             Spacer()
         }
         .background(Color.customwhitegray)
