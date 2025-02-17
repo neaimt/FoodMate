@@ -1,6 +1,6 @@
 # FoodMate
 
-**FoodMate**는 디자인구성 및 UI를 개발한 프로젝트입니다. 로그인, 회원가입, 온보딩, 홈 화면, 채팅, 마이페이지 및 푸드메이트 관련 UI가 구현되어 있습니다.
+**FoodMate**는 UI만 구성한 프로젝트입니다. 현재 로그인, 회원가입, 온보딩, 홈 화면, 푸드메이트, 레시피 검색, 채팅, 마이페이지 UI가 구현되어 있습니다.
 
 ## 📌 로그인 및 회원가입 UI
 사용자가 FoodMate에 가입하고 로그인할 수 있는 UI입니다.
@@ -36,7 +36,7 @@ FoodMate의 메인 화면입니다. 다양한 음식 추천 및 기능을 한눈
 ---
 
 ## 🍽 푸드메이트 UI
-사용자가 음식 배달 관련 정보를 공유하고 함께 즐길 수 있는 기능을 제공합니다.
+사용자가 음식 관련 정보를 공유하고 함께 즐길 수 있는 기능을 제공합니다.
 
 <img width="229" alt="FoodMate 1" src="https://github.com/user-attachments/assets/8cf89688-bf4c-4d02-bd4d-1095f7c96e2b" />
 
@@ -48,8 +48,35 @@ FoodMate의 메인 화면입니다. 다양한 음식 추천 및 기능을 한눈
 
 ---
 
+## 🔍 레시피 검색 UI
+사용자가 만들고 싶은 요리를 검색하고 추천 요리를 확인할 수 있는 화면입니다.
+
+<img width="250" alt="레시피 검색" src="https://github.com/user-attachments/assets/542cdc86-b544-46db-b6ca-80c119fb5969" />
+
+---
+
+## 💬 채팅 UI
+FoodMate 사용자 간 소통할 수 있는 채팅 화면입니다.
+
+<img width="250" alt="채팅 1" src="https://github.com/user-attachments/assets/72980b56-8176-433d-9fbe-fd6cad2276e7" />
+
+<img width="250" alt="채팅 2" src="https://github.com/user-attachments/assets/27ce4f2c-3626-4001-99cb-f7e6d98012e7" />
+
+---
+
+## 🧑‍💻 마이페이지 UI
+사용자의 개인 정보를 관리하고, 작성한 게시물과 저장한 레시피를 확인할 수 있는 마이페이지입니다.
+
+<img width="250" alt="마이페이지" src="https://github.com/user-attachments/assets/e0a7dc7a-c431-4945-ac5e-bb8ecb7f2c02" />
+
+---
+
+### 📌 프로젝트 특징
+✅ **UI만 구현**된 프로젝트  
+✅ **깔끔하고 직관적인 디자인 ( 아마도 ,, 제가 디자인한거라 ㅎ )** 
+
 **📢 앞으로의 개발 계획**  
-- 백엔드 연동  
+- 백엔드 연동  @!!!!
 
 ---
 
